@@ -1,0 +1,47 @@
+{
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "editor.fontSize": 12,
+    "editor.fontFamily": "JetBrains Mono",
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontWeight": "bold",
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "'JetBrains Mono'",
+    "debug.console.fontSize": 12,
+    "scm.inputFontSize": 12,
+    "markdown.preview.fontSize": 12,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.fontWeight": "bold",
+    "rust-analyzer.debug.engine": "ms-vscode.cpptools",
+    "rust-analyzer.debug.engineSettings": {
+        "cppdbg": {
+            "miDebuggerPath": "${env:HOME}/.cargo/bin/rust-gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": false
+                }
+            ]
+        }
+    },
+    "redhat.telemetry.enabled": false,
+    "workbench.colorCustomizations": {
+        "[GitHub Dark Dimmed]": {
+            "tab.border":"#1b1c1e",
+            "titleBar.border": "#22272e",
+            "sideBar.border": "#22272e",
+            "sideBarSectionHeader.border": "#22272e",
+            "statusBar.border": "#171a1e",
+            "editorGroupHeader.tabsBorder": "#22272e",
+            "activityBar.border": "#22272e",
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[GitHub Dark Dimmed]": {
+            "types": "#adbac7"
+        }   
+    }
+}

@@ -1,0 +1,72 @@
+[
+    {
+        "key": "ctrl+1",
+        "command": "workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled && !explorerViewletFocus"
+    },
+    {
+        "key": "alt+numpad1",
+        "command": "-workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled && !explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "alt+1",
+        "command": "-workbench.action.toggleSidebarVisibility",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "alt+numpad1",
+        "command": "-workbench.action.toggleSidebarVisibility",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "alt+1",
+        "command": "-workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled && !explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+f7",
+        "command": "references-view.findReferences",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "alt+f7",
+        "command": "-references-view.findReferences",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+enter",
+        "command": "-editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+meta+right",
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "-workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    {
+        "key": "ctrl+meta+left",
+        "command": "workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "-workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    }
+]
